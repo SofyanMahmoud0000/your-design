@@ -1,0 +1,50 @@
+.footer {
+  background: #0d0d1b;
+  border-top: 1px solid rgba(123, 47, 247, 0.15);
+  padding: 2rem 1.5rem;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #c4b5fd;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.copy {
+  color: #9b97c3;
+  font-size: 0.85rem;
+  direction: rtl;
+}
+
+.wa {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #25d366;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: opacity 0.2s;
+  direction: ltr;
+}
+
+.wa:hover { opacity: 0.8; }

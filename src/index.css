@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purple: #7b2ff7;
+  --purple-light: #a855f7;
+  --purple-dark: #5b21b6;
+  --pink: #ec4899;
+  --bg: #0f0f1a;
+  --bg2: #16162a;
+  --card: #1e1e35;
+  --text: #f1f0ff;
+  --muted: #9b97c3;
+  --white: #ffffff;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+}
+
+a { text-decoration: none; color: inherit; }
+
+::selection {
+  background: var(--purple);
+  color: white;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg2); }
+::-webkit-scrollbar-thumb { background: var(--purple); border-radius: 3px; }
